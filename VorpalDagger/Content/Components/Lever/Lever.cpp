@@ -8,13 +8,13 @@ class Lever : public Interactable {
         }
         void setDestructable(){
         }
-        bool getPoinMod(){
-            return pointMod;
-        }
         void setPointMod(){
         }
         bool getPointMod(){
             return false;
+        }
+        bool getLeverState(){
+            return leverActiveState;
         }
         void toggleLeverState(){
             leverActiveState != leverActiveState;
@@ -26,5 +26,4 @@ class Lever : public Interactable {
         bool pointMod = false;
         bool active = false;
         bool leverActiveState = false;
-
 };
