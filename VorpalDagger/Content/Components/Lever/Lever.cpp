@@ -17,7 +17,7 @@ class Lever : public Interactable {
             return false;
         }
         void toggleLeverState(){
-
+            leverActiveState != leverActiveState;
         }
 
       
@@ -25,5 +25,6 @@ class Lever : public Interactable {
         bool destructable = false;
         bool pointMod = false;
         bool active = false;
+        bool leverActiveState = false;
 
 };
