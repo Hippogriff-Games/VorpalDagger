@@ -4,10 +4,10 @@
 
 class Interactable {
    public:
-      bool getDestructable();
-      void setDestructable();
-      bool getPointMod();
-      void setPointMod();
+      bool GetDestructable();
+      void SetDestructable();
+      bool GetPointMod();
+      void SetPointMod();
       
    private:
       bool destructable; //Is this object destroyable
